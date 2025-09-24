@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A Fully-actuated Coaxial Aerial Robot for Close-Proximity Operations.">
+  <meta name="keywords" content="UAV, Manipulation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Self-Rotating Tri-Rotor UAV for Field of View Expansion and Autonomous Flight</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/jellyfish.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">A Self-Rotating Tri-Rotor UAV for Field-of-View Expansion and
+              Autonomous Flight</h1>
+            <div class="is-size-5 publication-authors" style="font-size: 2.0rem;">
+              <!-- <span class="author-block"> -->
+              <!-- <a href="https://scholar.google.com/citations?user=azPXbWcAAAAJ&hl=en">Junxiao Lin</a>,</span> -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="https://github.com/qtjdyx">Shuhang Ji</a>,</span> -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="https://scholar.google.com/citations?user=xYCz7sAAAAAJ&hl=en">Yuze Wu</a>,</span> -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="https://x.com/Modern_Gangster">Tianyue Wu</a>,</span> -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="https://scholar.google.com.hk/citations?user=5g-ZhmwAAAAJ&hl=en">Zhichao Han</a>,</span> -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="http://zju-fast.com/research-group/fei-gao/">Fei Gao</a></span> -->
+            </div>
+
+            <!-- <div class="is-size-5 publication-authors" style="font-size: 5.0rem;"> -->
+            <!-- <span class="author-block">Nanjing University</span> -->
+            <!-- </div> -->
+
+            <div class="column has-text-centered">
+              <!-- <div class="publication-links"> -->
+              <!-- <!~~ PDF Link. ~~> -->
+              <!-- <span class="link-block"> -->
+              <!-- <a href="./static/FLOAT_Drone.pdf" -->
+              <!-- class="external-link button is-normal is-rounded is-dark"> -->
+              <!-- <span class="icon"> -->
+              <!-- <i class="fas fa-file-pdf"></i> -->
+              <!-- </span> -->
+              <!-- <span>Paper</span> -->
+              <!-- </a> -->
+              <!-- </span> -->
+              <!-- <span class="link-block"> -->
+              <!-- <a href="https://arxiv.org/abs/2503.00785" -->
+              <!-- class="external-link button is-normal is-rounded is-dark"> -->
+              <!-- <span class="icon"> -->
+              <!-- <i class="ai ai-arxiv"></i> -->
+              <!-- </span> -->
+              <!-- <span>arXiv</span> -->
+              <!-- </a> -->
+              <!-- </span> -->
+              <!-- </div> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video id="paper video" controls loop playsinline height="100%">
+          <source src="./asserts/video2025.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="subtitle has-text-centered"> -->
+        <!-- <span class="dnerf">SPINNER</span>  -->
+        <!-- </h2> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Unmanned Aerial Vehicles (UAVs) perception
+              relies on onboard sensors like cameras and
+              LiDAR, which are limited by the narrow field of view
+              (FoV). We present Self-Perception INertial Navigation
+              Enabled Rotorcraft (SPINNER), a self-rotating trirotor
+              UAV for the FoV expansion and autonomous
+              flight. Without adding extra sensors or energy consumption,
+              SPINNER significantly expands the FoV
+              of onboard camera and LiDAR sensors through continuous
+              spin motion, thereby enhancing environmental
+              perception efficiency. SPINNER achieves full 3-dimensional position and roll-pitch attitude control
+              using only three brushless motors, while adjusting the
+              rotation speed via anti-torque plates design. To address
+              the strong coupling, severe nonlinearity, and complex
+              disturbances induced by spinning flight, we develop a
+              disturbance compensation control framework that combines
+              nonlinear model predictive control (MPC) with
+              incremental nonlinear dynamic inversion (INDI). Experimental
+              results demonstrate that SPINNER maintains
+              robust flight under wind disturbances up to 4.8
+              m/s and achieves high-precision trajectory tracking at a
+              maximum speed of 2.0 m/s. Moreover, tests in parking
+              garages and forests show that the rotational perception
+              mechanism substantially improves FoV coverage and
+              enhances perception capability of SPINNER.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- pull curtain. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Hardware Display</h2>
+          <div class="pull-curtain">
+            <video id="water-flower" controls muted loop playsinline height="100%">
+              <source src="./asserts/hardware.mp4" type="video/mp4">
+            </video>
+            The details of SPINNER hardware platform.
+          </div>
+        </div>
+      </div>
+      <!--/ pull curtain. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- pull curtain. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Anti-Torque Plate Design</h2>
+          <div class="pull-curtain">
+            <video id="water-flower" controls muted loop playsinline height="100%">
+              <source src="./asserts/dfb.mp4" type="video/mp4">
+            </video>
+            Yaw rate response of the SPINNER with different anti-torque plates.
+          </div>
+        </div>
+      </div>
+      <!--/ pull curtain. -->
+    </div>
+  </section>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- pull curtain. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Lemniscate Trajectory Tracking</h2>
+          <div class="pull-curtain">
+            <video id="water-flower" controls muted loop playsinline height="100%">
+              <source src="./asserts/indoor.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <!--/ pull curtain. -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- pull curtain. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Anti-Disturbance Test</h2>
+          <div class="pull-curtain">
+            <video id="water-flower" controls muted loop playsinline height="100%">
+              <source src="./asserts/anti-disturbance.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <!--/ pull curtain. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- pull curtain. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Indoor Navigation</h2>
+          <div class="pull-curtain">
+            <video id="water-flower" controls muted loop playsinline height="100%">
+              <source src="./asserts/garage.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <!--/ pull curtain. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Water flower. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Outdoor Navigation</h2>
+          <div class="water-flower">
+            <video id="water-flower" controls muted loop playsinline height="100%">
+              <source src="./asserts/forest.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <!--/ Water flower. -->
+    </div>
+  </section>
+
+  <!-- <section class="section" id="BibTeX"> -->
+  <!-- <div class="container is-max-desktop content"> -->
+  <!-- <h2 class="title">BibTeX</h2> -->
+  <!-- <pre><code>@article{lin2025floatdrone, -->
+  <!-- author    = {Junxiao Lin, Shuhang Ji, Yuze Wu, Tianyue Wu, Zhichao Han and Fei Gao}, -->
+  <!-- title     = {FLOAT Drone: A Fully-actuated Coaxial Aerial Robot for Close-Proximity Operations}, -->
+  <!-- journal   = {arXiv}, -->
+  <!-- year      = {2025}, -->
+  <!-- }</code></pre> -->
+  <!-- </div> -->
+  <!-- </section> -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Page template borrowed from <a rel="license" href="https://nerfies.github.io//">Nerfies</a> and <a
+                rel="license" href="https://zju-jxlin.github.io/float-drone.github.io/">float-drone</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
